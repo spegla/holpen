@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Links</title>
+<style type="text/css">
+
+body, td, p {
+	background-color : #FFFFFF;
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+td.linkman, p.linkman {
+	background-color : #FFFFFF;
+	color : #000000;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+
+a.linkman {
+	color : blue;
+	font-size : 12px;
+	text-decoration : underline;
+}
+
+
+a.linkman:hover {
+	color : red;
+	text-decoration : none;
+}
+
+span.linkmanURL {
+	color : #6f6f6f;
+}
+
+</style>
+<body>

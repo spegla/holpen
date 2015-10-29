@@ -1,0 +1,70 @@
+div.prettyGallery {
+	display: inline-block;
+}
+div.prettyGallery ul.prettyGallery {
+	list-style: none;
+	float: left;
+	margin: 0 0 2px 0;
+}
+div.prettyGallery ul.prettyGallery li {
+	display: block;
+	float: left;
+	margin-right: 0;
+}
+ul.prettyNavigation {
+	position:absolute;
+	float:left;
+	clear: left;
+	list-style: none;
+	margin:98px 0 0 0;
+	padding:0;
+	z-index:10;
+}
+ul.prettyNavigation li {
+	display: block;
+	float: left;
+	width: 215px;
+	height: 45px;
+	line-height: 15px;
+	font-size: 0.8em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #696969;
+	margin: 0;
+	padding: 0;
+}
+ul.prettyNavigation li span {
+	display: none;
+}
+ul.prettyNavigation li.prev {
+	width: 25px;
+}
+ul.prettyNavigation li.prev a {
+	display: block;
+	width: 100%;
+	height: 45px;
+	text-indent: -10000px;
+}
+ul.prettyNavigation li.next {
+	width: 25px;
+}
+ul.prettyNavigation li.next a {
+	display: block;
+	width: 100%;
+	height: 45px;
+	text-indent: -10000px;
+}
+ul.prettyNavigation li.next a:hover {
+	background-position: 100% -18px;
+}
+ul.prettyNavigation li.prev a:hover {
+	background-position: 0 -18px;
+}
+ul.prettyNavigation li.next a.disabled,  ul.prettyNavigation li.next a.disabled:hover {
+	background-position: 100% -36px;
+	cursor: default;
+}
+ul.prettyNavigation li.prev a.disabled,  ul.prettyNavigation li.prev a.disabled:hover {
+	background-position: 0 -36px;
+	cursor: default;
+}

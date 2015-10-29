@@ -384,6 +384,9 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-long-arrow-left:before{content:"\f177";}
 .icon-long-arrow-right:before{content:"\f178";}
 .icon-apple:before{content:"\f179";}
+.icon-book:before{content:"\f02d";}
+.icon-car:before{content:  "\f0d1"}
+.icon-fascikla:before{content: "\f0f6"}
 .icon-windows:before{content:"\f17a";}
 .icon-android:before{content:"\f17b";}
 .icon-linux:before{content:"\f17c";}

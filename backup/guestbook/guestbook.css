@@ -1,0 +1,36 @@
+#GuestBook {
+	width:500px;	
+}
+
+#GuestBook td {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+
+#GuestBook #Comments {
+	margin-bottom:10px;	
+}
+
+#GuestBook #Comments div {
+	margin-bottom:10px;	
+	border-bottom:2px solid #CCC
+}
+
+
+#GuestBook #Comments h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#GuestBook #Comments p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#GuestBook #Comments span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-style:italic;
+}
